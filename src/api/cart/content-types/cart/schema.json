@@ -23,6 +23,9 @@
     },
     "price": {
       "type": "biginteger"
+    },
+    "qty": {
+      "type": "string"
     }
   }
 }
