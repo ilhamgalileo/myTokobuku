@@ -1,7 +1,7 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
 export interface AdminPermission extends Schema.CollectionType {
-  collectionName: 'admin_permisszzons';
+  collectionName: 'admin_permissions';
   info: {
     name: 'Permission';
     description: '';
