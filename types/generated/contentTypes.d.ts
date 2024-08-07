@@ -835,6 +835,7 @@ export interface ApiCartCart extends Schema.CollectionType {
     cust: Attribute.String;
     books: Attribute.Relation<'api::cart.cart', 'manyToMany', 'api::book.book'>;
     price: Attribute.BigInteger;
+    qty: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
